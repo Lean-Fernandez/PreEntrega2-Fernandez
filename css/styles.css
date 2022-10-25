@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+/******* HEADER **********/
+
+header{
+    background-image: url(../assets/img/qatar2022.jpg);
+    padding: 11px ;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+
+}
+
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke
+}
+
+header nav{
+    width: fit-content;
+    margin: 15px auto 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+header nav ul li a{
+    color:whitesmoke
+}
+
+/*********** MAIN INDEX**********/
+
+main{
+    background-color: rgba(147, 195, 236, 0.925);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.principal{
+    display: inline-block;
+    /* display: flex; */
+    padding: 20px;
+}
+
+.principal__titulo {
+    text-align: left;
+    padding: 15px;
+    /* align-self: flex-start; */
+}
+
+.principal__texto{
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    align-self: center;
+}
+
+.principal__mapa{
+    display: inline-block;
+    width: 600px;
+    position: relative;
+    left: 100px;
+}
+
+
+table{
+    background-color: indianred;
+    text-align: left;
+    margin: 5px;
+    font-size: 0.5cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:35%;
+    border-collapse: collapse;
+    border-radius: 15px;
+
+}
+
+th, td{
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+th{
+    border-bottom: solid 4px;
+
+}
+
+.campeones__titulo{
+    padding: 30px 5px 20px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.contenedor__titulo{
+    padding: 20px 15px 5px;
+    text-decoration: underline;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.tarjeta{
+    border: 2px solid black;
+    width: 350px;
+    height: fit-content;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.tarjeta__img{
+    width: 100%;
+}
+
+.tarjeta__titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+/***** MAIN PAGE FIXTURE ******/
+
+.titulogrupo{
+    text-align: center;
+    padding: 15px;
+    text-decoration:overline underline;
+}
+
+.contenedorgrupos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grupos__img{
+    width: 100%;
+    display: flex;
+}
+
+.grupos{
+    border: 2px solid black;
+    width: 350px;
+    height: fit-content;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.grupos__titulo{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.pronostico__titulo{
+    padding: 20px 15px 5px;
+    text-decoration: underline;
+}
+
+.pronostico__img{
+    padding: 20px;
+    margin: 5px;
+    height: 50vh;
+}
+
+/********MAIN PAGE SELECCION *******/
+
+.portada{
+    background-image: url(../assets/img/campeonamerica.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada__contenedor-texto{
+    text-align: center;
+    background-color: rgba(100, 148, 237, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.portada__redes{
+    background-color: rgba(100, 148, 237, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+}
+
+/**********FOOTER*************/
+
+footer{
+    background-image: url(../assets/img/footer1.jpg);
+    padding: 11px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+footer span{
+    text-align:right;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+footer nav{
+    width:auto;
+    margin: 15px auto 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer nav ul li{
+    padding: 1px 20px;
+    text-align: right;
+}
+
+footer nav ul li a{
+    color: whitesmoke
+}
+
