@@ -17,9 +17,7 @@ ol{
 
 header{
     background-image: url(../assets/img/qatar2022.jpg);
-    padding: 11px ;
-    background-repeat: no-repeat;
-    background-position-x: left;
+    padding: 9px ;
     background-size: cover;
 
 }
