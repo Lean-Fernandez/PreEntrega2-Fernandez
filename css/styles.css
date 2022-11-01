@@ -243,13 +243,14 @@ th{
 .galeriamessi__titulo{
     grid-column: span 2;
     grid-row: span 2;
+    font-size: 1.3rem;
 }
 
-.descripccionfotos{
+.contgeneral{
     padding: 10px;
 }
 
-.descripccionfotos__titulo{
+.contgeneral__titulo{
     text-decoration: underline;
     padding: 0px 5px 10px;
 }
