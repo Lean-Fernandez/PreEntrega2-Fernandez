@@ -52,29 +52,28 @@ main{
 }
 
 .principal{
-    display: inline-block;
-    /* display: flex; */
+
+    display: grid;
     padding: 20px;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: repeat (3,30%);
 }
 
 .principal__titulo {
-    text-align: left;
+    text-align: center;
     padding: 15px;
-    /* align-self: flex-start; */
+    grid-column: span 2;
 }
 
 .principal__texto{
-    display: inline-block;
     padding: 10px;
-    width: 400px;
     align-self: center;
 }
 
 .principal__mapa{
-    display: inline-block;
     width: 600px;
-    position: relative;
-    left: 100px;
+    left: 50px;
+    grid-column: span 2;
 }
 
 
@@ -225,11 +224,9 @@ th{
 
 .galeriamessi{
     display: grid;
-    grid-template-columns: repeat(2,45%);
-    grid-template-rows: repeat(4,50%);
+    grid-template-columns: repeat(2,30%);
+    /* grid-template-rows: repeat(2,30%); */
     padding: 10px;
-
-    justify-content: center;
     gap: 20px;
 }
 
@@ -244,10 +241,27 @@ th{
 }
 
 .galeriamessi__titulo{
-    /* padding: 15px; */
     grid-column: span 2;
     grid-row: span 2;
+}
 
+.descripccionfotos{
+    padding: 10px;
+}
+
+.descripccionfotos__titulo{
+    text-decoration: underline;
+    padding: 0px 5px 10px;
+}
+
+.informacion__titulo{
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.informacion__texto{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 /**********FOOTER*************/
